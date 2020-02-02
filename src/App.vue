@@ -1,12 +1,12 @@
 <template>
   <div id="app">
       <div class="container">
-          <div class="row">
-              <div class="col-lg-9">
-                    <app-posts></app-posts>
-              </div>
+          <div class="row flex-lg-row-reverse">
               <div class="col-lg-3">
                   <app-filter></app-filter>
+              </div>
+              <div class="col-lg-9">
+                    <app-posts></app-posts>
               </div>
           </div>
       </div>
