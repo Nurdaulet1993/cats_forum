@@ -42,5 +42,7 @@
 </script>
 
 <style scoped>
-
+    .filter {
+        position: fixed;
+    }
 </style>
