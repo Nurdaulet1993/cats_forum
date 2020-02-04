@@ -42,7 +42,9 @@
 </script>
 
 <style scoped>
-    .filter {
-        position: fixed;
+    @media only screen and (min-width: 1200px) {
+        .filter {
+            position: fixed;
+        }
     }
 </style>
